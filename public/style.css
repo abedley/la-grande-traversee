@@ -1,6 +1,22 @@
+img.img-big {
+    display: inline;
+  }
+
+  img.img-small {
+    display: none;
+  }
+
 @media (max-width: 760px) {
   figure.fullwidth {
       max-width: 100%;
       margin-bottom: 0;
+  }
+
+  img.img-big {
+    display: none;
+  }
+
+  img.img-small {
+    display: inline;
   }
 }
